@@ -23,3 +23,26 @@ public class CustomUIButton: UIButton {
         configCornerCircle()
     }
 }
+
+@IBDesignable
+class ButtonWithShadow: CustomUIButton {
+    
+    @IBInspectable var shadow: Bool = true {
+        didSet {
+            if shadow {
+                updateLayerProperties()
+            } else {
+                layer.shadowOpacity = 0
+            }
+        }
+    }
+    
+    func updateLayerProperties() {
+        self.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+        self.layer.shadowOffset = CGSize(width: 0, height: 2)
+        self.layer.shadowOpacity = 1.0
+        self.layer.shadowRadius = 0
+        self.layer.masksToBounds = false
+    }
+    
+}
