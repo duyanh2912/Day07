@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Bzp-m2-6Hc">
-    <device id="retina3_5" orientation="landscape">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,17 +19,17 @@
                         <viewControllerLayoutGuide type="bottom" id="mWH-Bb-Kro"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nRK-07-u7B">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAL-cO-QhL">
-                                <rect key="frame" x="0.0" y="192" width="480" height="128"/>
+                                <rect key="frame" x="0.0" y="248.33333333333337" width="736" height="165.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="xJ8-M8-NuE" userLabel="Left Stack">
-                                        <rect key="frame" x="0.0" y="10" width="43.5" height="115"/>
+                                        <rect key="frame" x="0.0" y="9.9999999999999716" width="66" height="152.66666666666669"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6y-rw-eKd" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="33"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" image="Voice">
@@ -42,11 +42,11 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <variation key="heightClass=compact"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CZ-Xg-KIs" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="30.5" width="43.5" height="24"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CZ-Xg-KIs" customClass="CustomUIButton" customModule="Utils">
+                                                <rect key="frame" x="0.0" y="40" width="66" height="33.666666666666686"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" image="Back">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -54,9 +54,10 @@
                                                         <real key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=compact"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waV-qm-5Ic" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="61.5" width="43.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="80.666666666666686" width="66" height="32.666666666666686"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title=",">
@@ -68,11 +69,11 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-BL-9Qd" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="92" width="43.5" height="23"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkD-BL-9Qd" customClass="CustomUIButton" customModule="Utils">
+                                                <rect key="frame" x="0.0" y="120.33333333333337" width="66" height="32.333333333333314"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" image="Globe">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -80,6 +81,7 @@
                                                         <real key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=compact"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.87075680489999996" blue="0.27970376609999997" alpha="1" colorSpace="deviceRGB"/>
@@ -116,13 +118,13 @@
                                         </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="C2i-Wf-9Rm">
-                                        <rect key="frame" x="43.5" y="10" width="394" height="115"/>
+                                        <rect key="frame" x="66" y="9.9999999999999716" width="604" height="152.66666666666669"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JuO-3r-ixT">
-                                                <rect key="frame" x="5" y="0.0" width="384" height="23.5"/>
+                                                <rect key="frame" x="5" y="0.0" width="594" height="32.333333333333371"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab8-Be-LqB" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="0.0" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="55" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="Q">
@@ -138,7 +140,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb7-WM-FbZ" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="39" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="60" y="0.0" width="54.666666666666657" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="W">
@@ -154,7 +156,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUY-Tu-jP1" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="78" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="119.66666666666666" y="0.0" width="55" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="E">
@@ -170,7 +172,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-lw-nse" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="117" y="0.0" width="33.5" height="23.5"/>
+                                                        <rect key="frame" x="179.66666666666669" y="0.0" width="55.000000000000028" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="R">
@@ -186,7 +188,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvn-0w-g0Z" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="155.5" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="239.66666666666669" y="0.0" width="55" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="T">
@@ -202,7 +204,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-gD-uoN" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="194.5" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="299.66666666666669" y="0.0" width="54.666666666666629" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="Y">
@@ -218,7 +220,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWd-9A-98p" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="233.5" y="0.0" width="33.5" height="23.5"/>
+                                                        <rect key="frame" x="359.33333333333331" y="0.0" width="55" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="U">
@@ -234,7 +236,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwT-j9-J3b" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="272" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="419.33333333333337" y="0.0" width="55.000000000000057" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="I">
@@ -250,7 +252,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaV-qS-AcR" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="311" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="479.33333333333337" y="0.0" width="54.666666666666629" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="O">
@@ -266,7 +268,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zK-Gv-vRD" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="350" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="539" y="0.0" width="55" height="32.333333333333371"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="P">
@@ -284,10 +286,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Bje-Pv-ewR">
-                                                <rect key="frame" x="24" y="30.5" width="346" height="23.5"/>
+                                                <rect key="frame" x="24" y="39.333333333333371" width="556" height="33.333333333333314"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFa-l2-52a" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="0.0" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="57.333333333333343" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="A">
@@ -303,7 +305,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ta9-rv-bsl" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="39" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="62.333333333333343" y="0.0" width="57.333333333333314" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="S">
@@ -319,7 +321,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZW-wx-ONu" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="78" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="124.66666666666664" y="0.0" width="57.333333333333357" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="D">
@@ -335,7 +337,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn3-es-ZBd" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="117" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="187" y="0.0" width="57.333333333333314" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="F">
@@ -351,7 +353,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbr-ZF-lw5" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="156" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="249.33333333333331" y="0.0" width="57.333333333333371" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="G">
@@ -367,7 +369,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjv-ch-bDB" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="195" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="311.66666666666674" y="0.0" width="57.333333333333314" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="H">
@@ -383,7 +385,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3P-sc-2FP" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="234" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="374" y="0.0" width="57.333333333333371" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="J">
@@ -399,7 +401,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5Q-Ax-PCU" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="273" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="436.33333333333337" y="0.0" width="57.333333333333258" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="K">
@@ -415,7 +417,7 @@
                                                         </variation>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VM0-rc-8HW" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="312" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="498.66666666666657" y="0.0" width="57.333333333333428" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" title="L">
@@ -433,10 +435,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nMY-La-ArI">
-                                                <rect key="frame" x="5" y="61" width="384" height="23.5"/>
+                                                <rect key="frame" x="5" y="79.666666666666686" width="594" height="32.666666666666686"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cP-dk-G9X" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="67" height="32.666666666666686"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" image="Shift">
@@ -449,10 +451,10 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ONY-Y3-CWK">
-                                                        <rect key="frame" x="58" y="0.0" width="268" height="23.5"/>
+                                                        <rect key="frame" x="81.333333333333371" y="0.0" width="431.33333333333326" height="32.666666666666686"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dUI-Ab-lRH" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="0.0" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="57.333333333333314" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="Z">
@@ -468,7 +470,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrA-p1-PY4" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="39" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="62.333333333333314" y="0.0" width="57.333333333333343" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="X">
@@ -484,7 +486,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwD-nQ-vcq" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="78" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="124.66666666666666" y="0.0" width="57.333333333333314" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="C">
@@ -500,7 +502,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cn4-b3-2CS" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="117" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="186.99999999999997" y="0.0" width="57.333333333333371" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="V">
@@ -516,7 +518,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grs-nf-Ky6" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="156" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="249.33333333333334" y="0.0" width="57.333333333333286" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="B">
@@ -532,7 +534,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huj-cq-ZYC" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="195" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="311.66666666666663" y="0.0" width="57.333333333333371" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="N">
@@ -548,7 +550,7 @@
                                                                 </variation>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZsT-wK-2BX" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="234" y="0.0" width="34" height="23.5"/>
+                                                                <rect key="frame" x="374" y="0.0" width="57.333333333333258" height="32.666666666666686"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" title="M">
@@ -566,7 +568,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPI-Y2-PyC" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="340.5" y="0.0" width="43.5" height="23.5"/>
+                                                        <rect key="frame" x="527" y="0.0" width="67" height="32.666666666666686"/>
                                                         <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" image="Delete">
@@ -581,13 +583,13 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5Yh-4r-oUt">
-                                                <rect key="frame" x="5" y="91.5" width="384" height="23.5"/>
+                                                <rect key="frame" x="5" y="119.33333333333337" width="594" height="33.333333333333314"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SX1-M8-nqg">
-                                                        <rect key="frame" x="0.0" y="0.0" width="92" height="23.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="138.66666666666666" height="33.333333333333314"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGh-P4-ae8" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="23.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="67" height="33.333333333333314"/>
                                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                                 <state key="normal" title="123">
@@ -600,7 +602,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fu-iY-uV8" customClass="CustomUIButton" customModule="Utils">
-                                                                <rect key="frame" x="48.5" y="0.0" width="43.5" height="23.5"/>
+                                                                <rect key="frame" x="72" y="0.0" width="66.666666666666657" height="33.333333333333314"/>
                                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                                 <state key="normal" image="Emoji">
@@ -615,7 +617,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JA1-cI-mdk" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="97" y="0.0" width="34" height="23.5"/>
+                                                        <rect key="frame" x="143.66666666666663" y="0.0" width="57.333333333333343" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                         <state key="normal" image="Voice">
@@ -628,7 +630,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmJ-eL-xoT" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="136" y="0.0" width="151" height="23.5"/>
+                                                        <rect key="frame" x="206" y="0.0" width="244.33333333333337" height="33.333333333333314"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="space">
@@ -641,7 +643,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nY5-4c-OwZ" customClass="CustomUIButton" customModule="Utils">
-                                                        <rect key="frame" x="292" y="0.0" width="92" height="23.5"/>
+                                                        <rect key="frame" x="455.33333333333343" y="0.0" width="138.66666666666657" height="33.333333333333314"/>
                                                         <color key="backgroundColor" red="0.69660753889783555" green="0.70416567955408726" blue="0.72684010152284262" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <state key="normal" title="return">
@@ -682,10 +684,10 @@
                                         </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="D9Q-tB-uHj" userLabel="Right Stack">
-                                        <rect key="frame" x="437.5" y="10" width="42.5" height="115"/>
+                                        <rect key="frame" x="670" y="9.9999999999999716" width="66" height="152.66666666666669"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoZ-20-y8o" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="0.0" width="42.5" height="24"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="33"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="&lt;">
@@ -698,7 +700,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjJ-sr-SSE" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="31" width="42.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="40" width="66" height="33"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="&gt;">
@@ -711,7 +713,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1A-we-XEv" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="61.5" width="42.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="80" width="66" height="33"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title=".">
@@ -724,10 +726,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slk-gn-R0P" customClass="CustomUIButton" customModule="Utils">
-                                                <rect key="frame" x="0.0" y="92" width="42.5" height="23"/>
+                                                <rect key="frame" x="0.0" y="120" width="66" height="32.666666666666686"/>
                                                 <color key="backgroundColor" red="0.69660753890000005" green="0.70416567959999998" blue="0.7268401015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="ৎ">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
@@ -858,9 +860,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Back" width="20" height="30"/>
         <image name="Delete" width="23" height="30"/>
         <image name="Emoji" width="19" height="30"/>
+        <image name="Globe" width="20" height="30"/>
         <image name="Shift" width="19" height="30"/>
-        <image name="Voice" width="13" height="30"/>
+        <image name="Voice" width="12" height="30"/>
     </resources>
 </document>
